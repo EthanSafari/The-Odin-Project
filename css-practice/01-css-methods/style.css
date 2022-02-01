@@ -1,0 +1,10 @@
+/* A red background, white text, a font size of 32px, center aligned, 
+and bold */
+
+div {
+    color: white; /* changes the color of the text */
+    background-color: red; /* changes the color of the background that the text will be on */
+    font-weight: 700; /*700 font weight is considered BOLD*/
+    text-align: center; /* changes the placement of the text */
+    font-size: 32px; /* changes the size of the font */
+}

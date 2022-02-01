@@ -1,0 +1,23 @@
+/* The first element: a black background and white text */
+/* The second element: a yellow background */
+/* Both elements: a font size of 28px and a list of fonts containing 
+"Helvetica" and "Times New Roman", with sans-serif as a fallback */
+
+.button1,
+.button2 {
+    font-size: 28px;
+    font-family: "Times New Roman", "Helvectica", sans-serif;
+}
+/* Both buttons share the the same properties above. It will be applied to 
+ALL buttons. */
+
+.button1 {
+    background-color: black;
+    color: white;
+}
+/* These properties will only be applied to the first button. */
+
+.button2 {
+    background-color: yellow;
+}
+/* These properties will only be applied to the second button. */
